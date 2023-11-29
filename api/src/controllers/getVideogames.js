@@ -1,3 +1,5 @@
+// Obtiene un arreglo de objetos, donde cada objeto es un videojuego
+// con su información.
 const axios = require('axios');
 const { Videogame } = require('../db.js');
 
