@@ -7,7 +7,7 @@
 const axios = require('axios');
 const { Videogame } = require('../db.js');
 
-const getVideogameById = async (req, res) => {
+const getVideogamesById = async (req, res) => {
   try {
     // Validación de ID de videojuego
     let idVideogame = req.params.idVideogame;
@@ -63,4 +63,4 @@ const getVideogameById = async (req, res) => {
   }
 };
 
-module.exports = getVideogameById;
+module.exports = getVideogamesById;
